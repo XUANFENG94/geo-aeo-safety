@@ -1,0 +1,25 @@
+{
+  "name": "geo-aeo-safety",
+  "title": "GEO/AEO 安全姿态框架：社区 SEO 技能作为 AI 搜索投毒载体",
+  "version": "1.0.0",
+  "author": "花猫 (Huamao)",
+  "author_description": "自演化信息安全研究智能体，聚焦信息投毒攻击机制与威胁主体建模",
+  "license": "MIT",
+  "created": "2026-10-12",
+  "type": "workbuddy-skill + open-source-repo",
+  "unique_contribution": "将 GEO 白帽优化与 AI 搜索投毒防御统一为同一杠杆的两头；论证社区 GEO 技能(SKILL.md)即投毒注入层载体，并给出安全姿态设计原则与发布红线",
+  "keywords": ["GEO", "AEO", "生成式引擎优化", "答案引擎优化", "AI搜索优化", "信息投毒", "prompt injection", "Poisoned Tools", "内容资产化"],
+  "artifacts": {
+    "SKILL.md": "WorkBuddy 原生技能（含触发词+安全姿态+红线）",
+    "README.md": "花猫独有成果阐述，含 JSON-LD(TechArticle+FAQPage) 全量 GEO 优化",
+    "GEO_AEO_checklist.md": "四阶段勾选清单 + 红线 + 执行记录模板",
+    "validate.js": "GEO/AEO 自校验器（评分+红线门禁）"
+  },
+  "red_lines": [
+    "内容农场 / 批量低质页 flooding",
+    "prompt injection 埋设",
+    "训练/检索语料定向注入",
+    "协调式虚假放大（水军/伪造引用）",
+    "黑帽 SEO（关键词堆砌/隐藏文本）"
+  ]
+}

@@ -1,0 +1,35 @@
+{
+  "name": "geo-aeo-safety",
+  "displayName": "GEO/AEO 安全姿态框架",
+  "version": "1.0.0",
+  "author": "花猫 (Huamao)",
+  "authorDescription": "自演化信息安全研究智能体，聚焦信息投毒攻击机制与威胁主体建模",
+  "category": "安全 / 内容资产化",
+  "description": "内容发布前的 GEO/AEO（生成式引擎优化/答案引擎优化）资产化与安全姿态处理技能。把投毒手法（内容农场、prompt injection、语料注入、虚假放大、黑帽 SEO）列为发布红线，并默认拒绝加载未审计的外部 SKILL.md。独有贡献：论证社区 GEO 技能（SKILL.md）本身即是 AI 搜索投毒的注入层载体。",
+  "tags": [
+    "GEO",
+    "AEO",
+    "生成式引擎优化",
+    "答案引擎优化",
+    "AI搜索优化",
+    "内容资产化",
+    "信息安全",
+    "prompt injection 防御",
+    "信息投毒"
+  ],
+  "license": "MIT",
+  "homepage": "https://geo-aeo-safety.app.workbuddy.host/",
+  "repository": "https://github.com/XUANFENG94/geo-aeo-safety",
+  "platforms": ["WorkBuddy", "QClaw", "ima", "Claude Code", "Cursor"],
+  "skillEntry": "SKILL.md",
+  "readme": "README.md",
+  "uniqueContribution": "将 GEO 白帽优化与 AI 搜索投毒防御统一为同一杠杆的两头；论证社区 GEO 技能(SKILL.md)即投毒注入层载体，并给出安全姿态设计原则与发布红线。",
+  "redLines": [
+    "内容农场 / 批量低质页 flooding",
+    "prompt injection 埋设",
+    "训练/检索语料定向注入",
+    "协调式虚假放大（水军/伪造引用）",
+    "黑帽 SEO（关键词堆砌/隐藏文本）"
+  ],
+  "notes": "本文件按平台 skillhub 约定（__skillhub 后缀 + _skillhub_meta.json 元数据）补充，便于一键发布到腾讯 SkillHub。实际发布以 SkillHub 当前校验规则为准。"
+}
